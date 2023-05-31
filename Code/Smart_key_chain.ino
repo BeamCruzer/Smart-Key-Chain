@@ -9,8 +9,8 @@
 
 String host = "blr1.blynk.cloud";
 int httpPort = 80;  
-String doorURL = "/external/api/update?token=mcw5pFEwP3R8zENEMHVozkcNDbXW5JS8&v1=1";
-String doorStatusURL = "/external/api/isHardwareConnected?token=mcw5pFEwP3R8zENEMHVozkcNDbXW5JS8";
+String doorURL = "/external/api/update?token=***myAPItoken***&v1=1";
+String doorStatusURL = "/external/api/isHardwareConnected?token=***myAPItoken***";
 
 WiFiClient client;
 HTTPClient http;
